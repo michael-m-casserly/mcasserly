@@ -1,0 +1,64 @@
+
+From: webmaster@sitemeter.com
+To: "axafalcons@yahoo.com" <axafalcons@yahoo.com> 
+Subject: Site Meter for Falcons Softball (s14axafalcons) 
+Date: Tue, 18 Mar 2003 20:43:44 -0500 
+       
+ 
+
+
+Thanks for creating a Site Meter for your web site. You'll need 
+to save this message because it contains the codename and password 
+for your account. You'll need them when you want to login to your 
+account on Site Meter.
+
+Your codename is   s14axafalcons
+Your password is   GILILE
+
+There are two versions of the Site Meter HTML available for your 
+site. One uses JavaScript and the other doesn't. The javascript 
+Site Meter can be more difficult to add to a page (when using 
+some HTML editors), but it allows you to track the original URL 
+from which your visitors came before linking to your site
+and also lets you see your visitor's time zone. Because many 
+email servers will filter out emails that contain javascript,
+it was not included in this email.  
+
+This is the regular version of the Site Meter HTML.
+
+<!--WEBBOT bot="HTMLMarkup" startspan ALT="Site Meter" -->
+<a href="http://s14.sitemeter.com/stats.asp?site=s14axafalcons" 
+target="_top">
+<img src="http://s14.sitemeter.com/meter.asp?site=s14axafalcons" 
+alt="Site Meter" border=0></a>
+<!--WEBBOT bot="HTMLMarkup" Endspan -->
+
+
+The instructions for installing your Site Meter counter and the 
+javascript version of the HTML are available from the manager 
+page of your account. You can get to the manager page by logging
+into your account at http://www.sitemeter.com and selecting MANAGER
+at the top of the page. From the manager, you can also make changes
+to your Site Meter account (like updating your email address, your 
+site's url, or the style of your counter).
+
+If you have any questions about Site Meter please first check the 
+help page at http://www.sitemeter.com/default.asp?action=help
+If you don't find your answer or have any ideas on how 
+the service can be improved, please feel free to contact me at 
+webmaster@sitemeter.com
+
+Thanks,
+
+David Smith
+SiteMeter.com
+
+
+You can also upgrade your Site Meter account and enjoy 
+additional tracking features. Click here for more details. 
+http://www.sitemeter.com/?action=help&area=upgradeFAQ
+
+Or maybe you need some help promoting your web site? 
+Signup for a free two week trial of a Site Meter Promotion 
+Package at http://promo.sitemeter.com/
+

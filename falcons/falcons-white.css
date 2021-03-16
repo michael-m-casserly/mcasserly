@@ -1,0 +1,162 @@
+#size5{font-size:"5pt"}
+#size6{font-size:"6pt"}
+#size7{font-size:"7pt"}
+#size8{font-size:"8pt"}
+#size9{font-size:"9pt"}
+#size10{font-size:"10pt"}
+#size11{font-size:"11pt"}
+#size12{font-size:"12pt"}
+#size13{font-size:"13pt"}
+#size14{font-size:"14pt"}
+#size15{font-size:"15pt"}
+#size16{font-size:"16pt"}
+#size17{font-size:"17pt"}
+#size18{font-size:"18pt"}
+#size19{font-size:"19pt"}
+#size20{font-size:"20pt"}
+
+a.bottomnavlink{ text-decoration: none; color: White; font: bold 10pt "Arial"}
+
+a.bottomnavlink:link{ text-decoration: none; color: White; font: bold 10pt "Arial"}
+
+a.bottomnavlink:visited{ text-decoration: none; color: White; font: bold 10pt "Arial"}
+
+a.bottomnavlink:active{ text-decoration: none; color: White; font: bold 10pt "Arial"}
+
+a.leftnavlink{ color: c41e3a; text-align: center; font: 10pt "Arial"}
+
+a.leftnavlink:link{ color: black; text-align: center; font: 10pt "Arial"}
+
+a.leftnavlink:visited{ color: c41e3a; text-align: center; font: 10pt "Arial"}
+
+a.leftnavlink:active{ color: c41e3a; text-align: center; font: 10pt "Arial"}
+
+a.leftnavlink:hover{ color: c41e3a; text-align: center; font: bold 10pt "Arial"}
+
+a.homepagelink{ color: c41e3a; text-align: left; font: 10pt "Tahoma"}
+
+a.homepagelink:link{ color: black; text-align: left; font: 10pt "Tahoma"}
+
+a.homepagelink:visited{ color: c41e3a; text-align: left; font: 10pt "Tahoma"}
+
+a.homepagelink:active{ color: c41e3a; text-align: left; font: 10pt "Tahoma"}
+
+a.ModuleTitleLink {text-decoration: underline; text-align: left; color: white; font: bold 10pt "Tahoma"}
+
+a.ModuleTitleLink:link {text-decoration: underline; text-align: left; color: white; font: bold 10pt "Tahoma"}
+
+a.ModuleTitleLink:visited {text-decoration: underline; text-align: left; color: white; font: bold 10pt "Tahoma"}
+
+a.ModuleTitleLink:active {text-decoration: underline; text-align: left; color: white; font: bold 10pt "Tahoma"}
+
+a.ModuleTitleLink:hover {text-decoration: underline; text-align: left; color: #FFD700; font: bold 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb {text-align:left; color: c41e3a; font: bold 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb:link {text-align:left; color: black; font: bold 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb:visited {text-align:left; color: c41e3a; font: bold 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb:active {text-align:left; color: c41e3a; font: bold 10pt "Tahoma"}
+
+a.smalltextlink{ color: c41e3a; text-align: center; font: 8pt "Arial"}
+
+a.smalltextlink:link{ color: black; text-align: center; font: 8pt "Arial"}
+
+a.smalltextlink:visited{ color: c41e3a; text-align: center; font: 8pt "Arial"}
+
+a.smalltextlink:active{ color: c41e3a; text-align: center; font: 8pt "Arial"}
+
+a.rightnavlink:link{ color: Black; font: 8pt "Arial"; text-align: left;}
+
+a.rightnavlink:visited{ color: c41e3a; font: 8pt "Arial"; text-align : left;}
+
+a.rightnavlink:active{ color: c41e3a; font: 8pt "Arial"; text-align : left;}
+
+a.sitemapheaderlink:link{ color: Black; font: bold 12pt "Tahoma"}
+
+a.sitemapheaderlink:visited{ color: c41e3a; font: bold 12pt "Tahoma"}
+
+a.sitemapheaderlink:active{ color: c41e3a; font: bold 12pt "Tahoma"}
+
+a.sitemapsublink:link{ color: Black; font: 10pt "Tahoma"}
+
+a.sitemapsublink:visited{ color: c41e3a; font: 10pt "Tahoma"}
+
+a.sitemapsublink:active{ color: c41e3a; font: 10pt "Tahoma"}
+
+a.textlink:link{ color: Black; font: 10pt "Arial"}
+
+a.textlink:visited{ color: c41e3a; font: 10pt "Arial"}
+
+a.textlink:active{ color: c41e3a; font: 10pt "Arial"}
+
+a.topnavlink{ color: White; text-decoration: none; font: bold 10pt "Tahoma"}
+
+a.topnavlink:link{ color: White; text-decoration: none; font: bold 10pt "Tahoma"}
+
+a.topnavlink:visited{ color: White; font: bold 10pt "Tahoma"}
+
+a.topnavlink:active{ color: White; font: bold 10pt "Tahoma"}
+
+a.topnavlink:hover{ color: #FFD700; text-decoration: underline; font: bold 10pt "Tahoma"}
+
+div.BoldText {text-align:left; color: c41e3a; font: bold 10pt "Arial"}
+
+div.BlackText {text-align:left; color: Black; font: 10pt "Arial"}
+
+div.FalconsNestDate {text-align:center; color: Black; font: 10pt "Arial"}
+
+div.FalconsNestIssue {text-align:right; color: Black; font: 10pt "Arial"}
+
+div.FalconsNestText {text-align:left; color: Black; font: 10pt "Arial"}
+
+div.FalconsNestTitle {text-align: center; color: black; font: bold 12pt "Tahoma"}
+
+div.FalconsNestVolume {text-align:left; color: Black; font: 10pt "Arial"}
+
+div.FooterText {text-align:center; color: Black; font: 8pt "Arial"}
+
+div.FooterTitle {text-align:center; color: c41e3a; font: bold 16pt "Tahoma"}
+
+div.ImageCredit {text-align:right; color: Black; font: 8pt "Arial"}
+
+div.ImageLabel {text-align:center; color: Black; font: 8pt "Arial"}
+
+div.ImageTitle {text-align:center; color: c41e3a; font: bold 12pt "Tahoma"}
+
+div.LeftNavText { color: c41e3a; text-align: center; font: bold 12pt "Comic Sans MS"}
+
+div.ModuleTitle {text-align: center; color: white; font: bold 10pt "Tahoma"}
+
+div.PageTitle {text-align: left; color: c41e3a; font: bold 12pt "Tahoma"}
+
+div.NewsArticleAuthor {text-align:left; color: Black; font: 8pt "Arial"}
+
+div.NewsArticleTitle {text-align: left; color: c41e3a; font: bold 12pt "Tahoma"}
+
+div.RightNavTitle {text-align: left; color: Black; font: 8pt "Arial"}
+
+div.RightNavHeader {text-align: center; color: Black; font: bold 10pt "Tahoma"}
+
+div.SectionHeader {text-align: left; color: c41e3a; font: bold 14pt "Tahoma"}
+
+div.ThumbTitle {text-align:center; color: c41e3a; font: bold 10pt "Tahoma"}
+
+div.TodaysDateText { color: c41e3a; font: bold 8pt "Arial"}
+
+p {text-align:left; color: Black; font: 10pt "Arial"}
+
+p.Header {text-align:center; color: Black; font: 12pt "Tahoma"}
+
+p.TableHeader {text-align:center; color: Black; font: bold 10pt "Arial"}
+
+td {color: Black; font: 10pt "Arial"}
+
+td.leftnavlinkselected{ color: c41e3a; text-align: center; font: bold 10pt "Arial"}
+
+td.thinborder { 
+border-bottom:.5pt solid windowtext;
+border-left:.5pt solid windowtext; 
+border-top:.5pt solid windowtext;
+border-bottom:.5pt solid windowtext; }

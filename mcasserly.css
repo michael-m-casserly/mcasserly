@@ -1,0 +1,85 @@
+.bodyTag{ 
+margin:0 0 0 0; 
+background-image: url(/images/background.gif)}
+
+.pageWidth {
+}
+
+/* Begin Global Classes */
+
+p, span, ul, li {
+text-align:left; 
+color: Black; 
+font: 10pt "Verdana"}
+
+p.Header {
+text-align:center; 
+color: Black; 
+font: 12pt "Tahoma"}
+
+p.TableHeader {
+text-align:center; 
+color: Black; 
+font: bold 10pt "Verdana"}
+
+td {
+text-align:center; 
+color: black; 
+font: 10pt "Verdana"}
+
+td.leftnavlinkselected{ 
+color: navy; 
+text-align: center; 
+font: bold 10pt "Arial"}
+
+td.thinborder { 
+border-bottom: .5pt solid windowtext;
+border-left: .5pt solid windowtext; 
+border-top: .5pt solid windowtext;
+border-right: .5pt solid windowtext}
+
+.pageoutlineborder { 
+border-bottom: 3pt solid windowtext navy;
+border-left: 3pt solid windowtext navy; 
+border-top: 3pt solid windowtext navy;
+border-right: 3pt solid windowtext navy;
+background-color: #FFFFFF;
+width:777px}
+
+.bannernavmenuoutlineborder { 
+border-left: 4pt solid windowtext navy; 
+border-right: 4pt solid windowtext navy;
+background-color: navy;
+width:777px}
+
+.footermenu {
+width:777px}
+/* End Global Classes */
+
+a.bottomnavlink{ 
+text-decoration: none; 
+color: white; 
+font: bold 10pt "Arial"}
+
+a.homepagelink{ 
+color: navy; 
+text-align: left; 
+font: 10pt "Tahoma"}
+
+a.homepagelink:link{ 
+color: #0033CC;}
+
+.FooterText {
+text-align:left; 
+color: Black; 
+font: 8pt "Arial"}
+
+.TodaysDateText { 
+color: navy; 
+font: bold 8pt "Arial"}
+
+.seperator {
+border-bottom: 1pt solid windowtext navy;
+background-color: white;
+height: 5px
+}

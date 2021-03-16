@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Falcons Softball--Photo Gallery</title>
+<link rel="stylesheet" type="text/CSS" href="/falcons.css" media="screen">
+<link rel="stylesheet" type="text/CSS" href="/falcons.css" media="print">
+<script src="/javascript/newwindows.js" language="javascript" type="text/javascript"></script>
+<script src="/javascript/printer-friendly.js" language="javascript" type="text/javascript"></script>
+<script>
+// (C) 2000 www.CodeLifter.com
+// http://www.codelifter.com
+// Free for all users, but leave in this  header
+// NS4-6,IE4-6
+// Fade effect only in IE; degrades gracefully
+
+// =======================================
+// set the following variables
+// =======================================
+
+// Set slideShowSpeed (milliseconds)
+var slideShowSpeed = 3000
+
+// Duration of crossfade (seconds)
+var crossFadeDuration = 3
+
+// Specify the image files
+var Pic = new Array() // don't touch this
+// to add more images, just continue
+// the pattern, adding to the array below
+
+Pic[0] = '../images/20040621_Dan2.jpg'
+Pic[1] = '../images/20040621_Dan3.jpg'
+Pic[2] = '../images/20040621_Eric.jpg'
+Pic[3] = '../images/20040621_Keith2.jpg'
+Pic[4] = '../images/20040621_RJ.jpg'
+Pic[5] = '../images/20040621_Pat4.jpg'
+Pic[6] = '../images/20040621_Adam3.jpg'
+Pic[7] = '../images/20040621_Adam2.jpg'
+Pic[8] = '../images/20040621_BobK3.jpg'
+Pic[9] = '../images/20040621_BobRupe2.jpg'
+Pic[10] = '../images/20040621_BobK4.jpg'
+Pic[11] = '../images/20040621_Vernon2.jpg'
+Pic[12] = '../images/20040621_Eric2.jpg'
+Pic[13] = '../images/20040621_Keith.jpg'
+Pic[14] = '../images/20040621_BobRupe.jpg'
+Pic[15] = '../images/20040621_Vernon.jpg'
+Pic[16] = '../images/20040621_Pat3.jpg'
+Pic[17] = '../images/20040621_Pat2.jpg'
+Pic[18] = '../images/20040621_Adam.jpg'
+Pic[19] = '../images/20040621_Bench.jpg'
+
+// =======================================
+// do not edit anything below this line
+// =======================================
+
+var t
+var j = 0
+var p = Pic.length
+
+var preLoad = new Array()
+for (i = 0; i < p; i++){
+   preLoad[i] = new Image()
+   preLoad[i].src = Pic[i]
+}
+
+function runSlideShow(){
+   if (document.all){
+      document.images.SlideShow.style.filter="blendTrans(duration=2)"
+      document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)"
+      document.images.SlideShow.filters.blendTrans.Apply()      
+   }
+   document.images.SlideShow.src = preLoad[j].src
+   if (document.all){
+      document.images.SlideShow.filters.blendTrans.Play()
+   }
+   j = j + 1
+   if (j > (p-1)) j=0
+   t = setTimeout('runSlideShow()', slideShowSpeed)
+}
+</script>
+
+</head>
+<!--#include virtual="/banner.html" -->
+
+<!--Begin Left Nav Content-->
+
+<!--#include virtual="/menus/leftnav_falcons.html"-->
+
+<!--#include virtual="/quicklinks.html"-->
+<p><a class="PageTitleBreadCrumb" href="../falcons/index.html">Falcons</a><a class="PageTitleBreadCrumb"> > </a><a class="PageTitleBreadCrumb" href="../falcons/history.html"> History</a><a class="PageTitleBreadCrumb"> > </a><a class="PageTitleBreadCrumb">Photo Gallery</a></p>
+<div class="BoldText">All photos courtesy of Kasia Bloom...</div>
+<p>
+<center>
+<p><div class="ImageTitle">June 9, 2004 vs. High Rollers -- SlideShow 2 of 2 (15 Photos)</div></p>
+
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td id="VU" height=150 width=150>
+<img src="../images/20040621_BobK6.jpg" name='SlideShow' width=480 height=321></td>
+</tr>
+</table>
+
+<p><center><a href="20040609game_slides_1.html" class="leftnavlink">View SlideShow 1</a></center></p>
+<!--
+<p><center><a href="20040609game_c.html" class="leftnavlink">Color Photos from June 9, 2004</a></center></p>
+<p><center><a href="20040609game_g.html" class="leftnavlink">Grayscale Photos from June 9, 2004</a></center></p>
+-->
+</center>
+<p><div class="ImageTitle">For More History...</div>
+<p><center><a href="../falcons/pictures.html" class="leftnavlink">Falcons Team Pictures</a></center></p>
+<p><center>Falcons Greatest Moments (Under Construction)</a></center></p>
+</p>
+
+</p>
+
+
+<!--Footnote across all pages-->
+
+<!--#include virtual="/footnote.html"-->
+
+
+
+
+
+<!--End Footnote across all pages-->
+
+<!--End Main Content section-->
+
+<!--#include virtual="/footer.html"-->
+
+<!--End Bottom Navigation Menu-->
+
+</body>
+</html>

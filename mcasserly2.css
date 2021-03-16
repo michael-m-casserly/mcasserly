@@ -1,0 +1,528 @@
+.bodyTag{ 
+margin:0 0 0 0; 
+background-image: url(/images/background.gif)}
+
+.pageWidth {
+}
+
+/* Begin Global Classes */
+
+p {
+text-align:left; 
+color: Black; 
+font: 10pt "Verdana"}
+
+span {
+text-align:left; 
+color: Black; 
+font: 10pt "Verdana"}
+
+ul {
+text-align:left; 
+color: Black; 
+font: 10pt "Verdana"}
+
+li {
+text-align:left; 
+color: Black; 
+font: 10pt "Verdana"}
+
+p.Header {
+text-align:center; 
+color: Black; 
+font: 12pt "Tahoma"}
+
+p.TableHeader {
+text-align:center; 
+color: Black; 
+font: bold 10pt "Verdana"}
+
+td {
+color: Black; 
+font: 10pt "Verdana"}
+
+td.leftnavlinkselected{ 
+color: navy; 
+text-align: center; 
+font: bold 10pt "Arial"}
+
+td.thinborder { 
+border-bottom: .5pt solid windowtext;
+border-left: .5pt solid windowtext; 
+border-top: .5pt solid windowtext;
+border-right: .5pt solid windowtext}
+
+.pageoutlineborder { 
+border-bottom: 3pt solid windowtext navy;
+border-left: 3pt solid windowtext navy; 
+border-top: 3pt solid windowtext navy;
+border-right: 3pt solid windowtext navy;
+background-color: #FFFFFF;
+width:777px}
+
+.bannernavmenuoutlineborder { 
+border-left: 4pt solid windowtext navy; 
+border-right: 4pt solid windowtext navy;
+background-color: navy;
+width:777px}
+
+.footermenu {
+width:777px}
+/* End Global Classes */
+
+a.bottomnavlink{ 
+text-decoration: none; 
+color: white; 
+font: bold 10pt "Arial"}
+
+a.bottomnavlink:link{ 
+text-decoration: none; 
+color: white; 
+font: bold 10pt "Arial"}
+
+a.bottomnavlink:visited{ 
+text-decoration: none; 
+color: white; 
+font: bold 10pt "Arial"}
+
+a.bottomnavlink:active{ 
+text-decoration: none; 
+color: white; 
+font: bold 10pt "Arial"}
+
+a.homepagelink{ 
+color: navy; 
+text-align: left; 
+font: 10pt "Tahoma"}
+
+a.homepagelink:link{ 
+color: black; 
+text-align: left; 
+font: 10pt "Tahoma"}
+
+a.homepagelink:visited{ 
+color: navy; 
+text-align: left; 
+font: 10pt "Tahoma"}
+
+a.homepagelink:active{ 
+color: navy; 
+text-align: left; 
+font: 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb {
+text-align:left; 
+color: navy; 
+font: bold 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb:link {
+text-align:left; 
+color: black; 
+font: bold 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb:visited {
+text-align:left; 
+color: navy; 
+font: bold 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb:active {
+text-align:left; 
+color: navy; 
+font: bold 10pt "Tahoma"}
+
+a.smalltextlink{ 
+color: navy; 
+text-align: center; 
+font: 8pt "Arial"}
+
+a.smalltextlink:link{ 
+color: black; 
+text-align: center; 
+font: 8pt "Arial"}
+
+a.smalltextlink:visited{ 
+color: navy; 
+text-align: center; 
+font: 8pt "Arial"}
+
+a.smalltextlink:active{ 
+color: navy; 
+text-align: center; 
+font: 8pt "Arial"}
+
+a.rightnavlink:link{ 
+color: Black; 
+text-align: left;
+font: 8pt "Arial"}
+
+a.rightnavlink:visited{ 
+color: navy; 
+text-align: left;
+font: 8pt "Arial"}
+
+a.rightnavlink:active{ 
+color: navy; 
+text-align: left;
+font: 8pt "Arial"}
+
+a.sitemapheaderlink:link{ 
+color: Black; 
+font: bold 12pt "Tahoma"}
+
+a.sitemapheaderlink:visited{ 
+color: navy; 
+font: bold 12pt "Tahoma"}
+
+a.sitemapheaderlink:active{ 
+color: navy; 
+font: bold 12pt "Tahoma"}
+
+a.sitemapsublink:link{ 
+color: Black; 
+font: 10pt "Tahoma"}
+
+a.sitemapsublink:visited{ 
+color: navy; 
+font: 10pt "Tahoma"}
+
+a.sitemapsublink:active{ 
+color: navy; 
+font: 10pt "Tahoma"}
+
+a.statsnavlink{ 
+text-decoration: underline; 
+color: black; 
+font: 10pt "Verdana"}
+
+a.statsnavlink:link{ 
+text-decoration: underline; 
+color: black; 
+font: 10pt "Verdana"}
+
+a.statsnavlink:visited{ 
+text-decoration: underline; 
+color: navy; 
+font: 10pt "Verdana"}
+
+a.statsnavlink:active{ 
+text-decoration: none; 
+color: navy; 
+font: bold 9pt "Verdana"}
+
+a.statsnavlink:hover{ 
+text-decoration: none; 
+color: navy; 
+font: bold 9pt "Verdana"}
+
+a.textlink:link{ 
+color: Black; 
+font: 10pt "Arial"}
+
+a.textlink:visited{ 
+color: navy; 
+font: 10pt "Arial"}
+
+a.textlink:active{ 
+color: navy; 
+font: 10pt "Arial"}
+
+a.topnavlink{ 
+color: White; 
+text-decoration: none; 
+font: bold 10pt "Tahoma"}
+
+a.topnavlink:link{ 
+color: White; 
+text-decoration: none; 
+font: bold 10pt "Tahoma"}
+
+a.topnavlink:visited{ 
+color: White; 
+font: bold 10pt "Tahoma"}
+
+a.topnavlink:active{ 
+color: White; 
+font: bold 10pt "Tahoma"}
+
+a.topnavlink:hover{ 
+color: #FFD700; 
+text-decoration: underline; 
+font: bold 10pt "Tahoma"}
+
+.BoldText {
+text-align:left; 
+color: navy; 
+font: bold 10pt "Arial"}
+
+.BlackText {
+text-align:left; 
+color: Black; 
+font: 10pt "Arial"}
+
+.FordhamHockeyNestDate {
+text-align:center; 
+color: Black; 
+font: 10pt "Arial"}
+
+.FordhamHockeyNestIssue {
+text-align:right; 
+color: Black; 
+font: 10pt "Arial"}
+
+.FordhamHockeyNestText {
+text-align:left; 
+color: Black; 
+font: 10pt "Arial"}
+
+.FordhamHockeyNestTitle {
+text-align: center; 
+color: black; 
+font: bold 12pt "Tahoma"}
+
+.FordhamHockeyNestVolume {
+text-align:left; 
+color: Black; 
+font: 10pt "Arial"}
+
+.FooterText {
+text-align:center; 
+color: Black; 
+font: 8pt "Arial"}
+
+.FooterTitle {
+text-align:center; 
+color: navy; 
+font: bold 16pt "Tahoma"}
+
+.ImageCredit {
+text-align:right; 
+color: Black; 
+font: 8pt "Arial"}
+
+.ImageLabel {
+text-align:center; 
+color: Black; 
+font: 8pt "Arial"}
+
+.ImageTitle {
+text-align:center; 
+color: navy; 
+font: bold 12pt "Tahoma"}
+
+.LeftNavText { 
+color: navy; 
+text-align: center; 
+font: bold 12pt "Comic Sans MS"}
+
+.NewsArticleAuthor {
+text-align:left; 
+color: Black; 
+font: 8pt "Arial"}
+
+.NewsArticleTitle {
+text-align: left; 
+color: navy; 
+font: bold 12pt "Tahoma"}
+
+.PageTitle {
+text-align: left; 
+color: navy; 
+font: bold 12pt "Tahoma"}
+
+.RightNavTitle {
+text-align: left; 
+color: Black; 
+font: 8pt "Arial"}
+
+.RightNavHeader {
+text-align: center; 
+color: Black; 
+font: bold 10pt "Tahoma"}
+
+.SectionHeader {
+text-align: left; 
+color: navy; 
+font: bold 14pt "Tahoma"}
+
+.ThumbTitle {
+text-align:center; 
+color: navy; 
+font: bold 10pt "Tahoma"}
+
+.TodaysDateText { 
+color: navy; 
+font: bold 8pt "Arial"}
+
+.seperator {
+border-bottom: 1pt solid windowtext navy;
+background-color: white;
+height: 5px
+}
+
+/* Begin Left Navigation Classes */
+
+li.leftnavlinks {
+list-style-image: url(/images/left_nav_arrow.jpg);
+background-color: white;
+text-align: left;
+vertical-align: middle;
+border-bottom: 1pt solid windowtext navy;
+padding: 5px 0px 5px 0px}
+
+a.leftnavlink{
+padding-left: 5px;
+color: navy; 
+text-align: center; 
+font: 10pt "Arial"}
+
+a.leftnavlink:link{ 
+padding-left: 5px;
+color: black; 
+text-align: center; 
+font: 10pt "Arial"}
+
+a.leftnavlink:visited{ 
+padding-left: 5px;
+color: navy; 
+text-align: center; 
+font: 10pt "Arial"}
+
+a.leftnavlink:active{ 
+padding-left: 5px;
+color: navy; 
+text-align: center; 
+font: 10pt "Arial"}
+
+a.leftnavlink:hover{ 
+padding-left: 5px;
+color: navy; 
+text-align: center; 
+font: bold 10pt "Arial"}
+/* End Left Navigation Classes */
+
+/* Begin Module Classes */
+
+.ModuleBox {
+border-left: 1pt solid windowtext navy;
+border-right: 2pt solid windowtext navy;
+border-bottom: 2pt solid windowtext navy;
+border-top: 1pt solid windowtext navy
+}
+
+.ModuleBoxTitle {
+background-color: navy;
+vertical-align: top;
+text-align: left;
+padding: 5px}
+
+.ModuleTitle {
+text-align: center; 
+color: white; 
+font: bold 10pt "Tahoma"; 
+padding-top:5px;
+padding-bottom:5px}
+
+a.ModuleTitleLink {
+text-decoration: underline; 
+text-align: left; 
+color: white; 
+font: bold 10pt "Tahoma"}
+
+a.ModuleTitleLink:link {
+text-decoration: underline; 
+text-align: left; 
+color: white; 
+font: bold 10pt "Tahoma"}
+
+a.ModuleTitleLink:visited {
+text-decoration: underline; 
+text-align: left; 
+color: white; 
+font: bold 10pt "Tahoma"}
+
+a.ModuleTitleLink:active {
+text-decoration: underline; 
+text-align: left; 
+color: white; 
+font: bold 10pt "Tahoma"}
+/* End Module Classes */
+
+/* Begin Quick Links */
+
+li.quicklinks {
+list-style-image: url(/images/news_bullet_homepage.jpg);
+background-color: white; 
+text-align: left;
+vertical-align: middle;
+border-bottom: 1pt solid windowtext navy;
+padding: 5px 0px 5px 0px}
+
+a.quicklinkslink:link{ 
+color: black; 
+text-align: left; 
+padding-left: 5px;
+font: 10pt "Tahoma"}
+
+a.quicklinkslink:active{ 
+color: navy; 
+text-align: left; 
+padding-left: 5px;
+font: 10pt "Tahoma"}
+
+a.quicklinkslink:visited{ 
+color: navy; 
+text-align: left; 
+padding-left: 5px;
+font: 10pt "Tahoma"}
+/* End Quick Links */
+
+/* Begin Home Page News */
+
+li.newsbullet{
+list-style-image: url(/images/news_bullet_homepage.jpg);
+background-color: white;
+text-align:left;
+padding: 0px 0px 5px 0px}
+
+a.newsbulletlink:link{ 
+color: Black; 
+font: 10pt "Arial";
+padding-left: 5px}
+
+a.newsbulletlink:active{ 
+color: navy; 
+font: 10pt "Arial";
+padding-left: 5px}
+
+a.newsbulletlink:visited{ 
+color: navy; 
+font: 10pt "Arial";
+padding-left: 5px}
+/* End Home Page News */
+
+/* Begin Index Pages */
+li.IndexPages{
+list-style: none;
+background-color: white;
+text-align:left;
+padding: 10px 0px 10px 0px}
+
+.IndexPageDates {
+width: 100px;
+padding: 0px 10px 0px 0px;
+text-align: right; 
+color: navy; 
+font: bold 10pt "Arial"}
+
+a.IndexPageLink:link{ 
+color: black; 
+font: 10pt "Arial"}
+
+a.IndexPageLink:visited{ 
+color: navy; 
+font: 10pt "Arial"}
+
+a.IndexPageLink:active{ 
+color: navy; 
+font: 10pt "Arial"}
+/* End Index Pages */

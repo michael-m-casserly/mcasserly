@@ -1,0 +1,2 @@
+document.write("<BR><center><p><div class='FooterText'>In order to view PDF files you must have Adobe Acrobat Reader installed on your computer.<\/BR>If needed, please click on the image below for instructions on how to download the software:<\/div><p><center><a href='http:\/\/www.adobe.com\/products\/acrobat\/readstep2.html' target='_blank'><img src='images\/get_adobe_reader.gif' height='31' width='88' border='0'><\/a><\/center><\/p><\/center>")
+		

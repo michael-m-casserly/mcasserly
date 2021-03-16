@@ -1,0 +1,342 @@
+.bodyTag{ 
+margin:0 0 0 0; 
+background-image: url(/images/background.gif)}
+
+.pageWidth {
+}
+/* Begin Global Classes */
+/* This is a cool font from the New York Times website
+body 
+{
+//background-color: white;
+font: small Georgia, serif;
+}
+
+html>body 
+{
+font: 83.5% Georgia, serif;
+}
+*/
+p, span, ul, li {
+text-align:left; 
+color: Black; 
+font: 10pt "Verdana"
+}
+
+p.Header {
+text-align:center; 
+color: Black; 
+font: 12pt "Tahoma"}
+
+p.TableHeader {
+text-align:center; 
+color: Black; 
+font: bold 10pt "Verdana"}
+
+td {
+color: Black; 
+font: 10pt "Verdana"}
+
+td.thinborder { 
+border-bottom: .5pt solid windowtext;
+border-left: .5pt solid windowtext; 
+border-top: .5pt solid windowtext;
+border-right: .5pt solid windowtext}
+
+.pageoutlineborder { 
+border-bottom: 3pt solid windowtext #900028;
+border-left: 3pt solid windowtext #900028; 
+border-top: 3pt solid windowtext #900028;
+border-right: 3pt solid windowtext #900028;
+background-color: #FFFFFF;
+width:777px}
+
+.bannernavmenuoutlineborder { 
+border-left: 4pt solid windowtext #900028; 
+border-right: 4pt solid windowtext #900028;
+background-color: #900028;
+width:777px}
+
+.footermenu {
+width:777px}
+
+/* End Global Classes */
+
+
+/* Start Link Classes */
+
+a.bottomnavlink{ 
+text-decoration: none; 
+color: white; 
+font: bold 10pt "Arial"}
+
+a.homepagelink{ 
+color: #900028; 
+text-align: left; 
+font: 10pt "Tahoma"}
+
+a.PageTitleBreadCrumb{
+text-align:left; 
+color: #900028; 
+font: bold 10pt "Tahoma"}
+
+a.smalltextlink{ 
+color: #900028; 
+text-align: center; 
+font: 8pt "Arial"}
+
+a.rightnavlink{ 
+color: #900028; 
+text-align: left;
+font: 8pt "Arial"}
+
+a.sitemapheaderlink{ 
+padding: 0px 0px 0px 0px;
+color: #900028; 
+font: bold 12pt "Tahoma"}
+
+a.sitemapsublink{ 
+color: #900028; 
+font: 10pt "Tahoma"}
+
+a.textlink{ 
+color: #900028; 
+font: 10pt "Arial"}
+
+a.leftnavlink{
+padding-left: 5px;
+color: #900028; 
+text-align: center; 
+font: 10pt "Arial"}
+
+a.leftnavlink:hover{
+font-weight:bold }
+
+a.IndexPageLink{ 
+color: #900028; 
+font: 10pt "Arial"}
+
+a.quicklinkslink{ 
+color: #900028; 
+text-align: left; 
+padding-left: 5px;
+font: 10pt "Tahoma"}
+
+a.newsbulletlink{ 
+color: #900028; 
+font: 10pt "Arial";
+padding-left: 5px}
+
+a.homepagelink:link, a.PageTitleBreadCrumb:link, a.smalltextlink:link, a.rightnavlink:link, a.sitemapheaderlink:link, a.sitemapsublink:link, a.textlink:link, a.leftnavlink:link, a.IndexPageLink:link, a.quicklinkslink:link, a.newsbulletlink:link{ 
+color: #0066FF; 
+}
+/* End Link Classes */
+
+
+/* Begin Bullet Classes */
+
+li.leftnavlinks {
+list-style-image: url(/images/left_nav_arrow.jpg);
+background-color: white;
+text-align: left;
+vertical-align: middle;
+border-bottom: 1pt solid windowtext #900028;
+padding: 5px 0px 5px 0px}
+
+li.sitemapsublinks {
+list-style-image: url(/images/left_nav_arrow.jpg);
+background-color: white;
+text-align: left;
+vertical-align: middle;
+padding: 0px 0px 0px 0px}
+
+li.quicklinks {
+list-style-image: url(/images/falconsnestlogo_left.gif);
+background-color: white; 
+text-align: left;
+vertical-align: middle;
+border-bottom: 1pt solid windowtext #900028;
+padding: 5px 0px 5px 0px}
+
+li.newsbullet{
+list-style-image: url(/images/bullet_softball.jpg);
+background-color: white;
+text-align:left;
+vertical-align: middle;
+padding: 3px 0px 0px 0px}
+
+li.IndexPages{
+list-style: none;
+background-color: white;
+text-align:left;
+padding: 10px 0px 10px 0px}
+
+/* End Bullet Classes */
+
+
+.FalconsNestVolume, .FalconsNestIssue, .IndexPageDates {
+padding: 0px 10px 0px 0px;
+text-align: right; 
+color: #900028; 
+font: bold 10pt "Georgia"}
+
+.FalconsNestVolume, .FalconsNestIssue {
+width: 40px;}
+
+.IndexPageDates {
+width: 120px;}
+
+
+/* Begin Stats Navigation Menu */
+
+a.statsnavlink{ 
+text-decoration: underline; 
+color: #0066FF; 
+font: 10pt "Verdana"}
+
+a.statsnavlink:visited, a.statsnavlink:active, a.statsnavlink:hover{ 
+color: #900028; }
+
+a.statsnavlink:active, a.statsnavlink:hover{ 
+text-decoration: none; }
+
+a.statsnavlink:hover{ 
+font: bold 9pt "Verdana"}
+
+/* End Stats Navigation Menu */
+
+
+a.topnavlink{ 
+color: #FFFF00; 
+text-decoration: none; 
+font: bold 10pt "Tahoma"}
+
+a.topnavlink:hover{ 
+color: #FFD700; 
+text-decoration: underline;}
+
+.BoldText, .BlackText {
+text-align:left; 
+font: 10pt "Arial"}
+
+.BoldText {
+font-weight: bold;
+color: #900028; }
+
+.BlackText {
+color: black; }
+
+.FalconsNestIssuePrint, .FalconsNestText, .FalconsNestDatePrint, .FalconsNestVolumePrint, .FalconsNestTitle {
+color: black; 
+font: 11pt "Georgia"}
+
+.FalconsNestText, .FalconsNestVolumePrint {
+text-align:left;}
+
+.FalconsNestIssuePrint{
+text-align:right; }
+
+.FalconsNestTitle {
+text-align: center; 
+font: bold 12pt "Tahoma"}
+
+.FalconsNestDatePrint {
+text-align:center;}
+
+.FooterText {
+text-align:center; 
+color: Black; 
+font: 8pt "Arial"}
+
+.FooterTitle {
+text-align:center; 
+color: #900028; 
+font: bold 16pt "Tahoma"}
+
+.ImageCredit, .ImageLabel {
+color: Black; 
+font: 8pt "Arial"}
+
+.ImageCredit {
+text-align:right;}
+
+.ImageLabel {
+text-align:center;}
+
+.ImageTitle {
+text-align:center; 
+color: #900028; 
+font: bold 12pt "Tahoma"}
+
+.LeftNavText { 
+color: #900028; 
+text-align: center; 
+font: bold 12pt "Comic Sans MS"}
+
+.NewsArticleAuthor, .RightNavTitle, .HomePageNewsPublished {
+text-align:left; 
+color: black; 
+font: 8pt "Arial"}
+
+.HomePageNewsPublished {
+padding-left: 5px;}
+
+.NewsArticleTitle, .PageTitle {
+text-align: left; 
+color: #900028; 
+font: bold 12pt "Tahoma"}
+
+.RightNavHeader {
+text-align: center; 
+color: Black; 
+font: bold 10pt "Tahoma"}
+
+.SectionHeader {
+text-align: left; 
+color: #900028; 
+font: bold 14pt "Tahoma"}
+
+.ThumbTitle {
+text-align:center; 
+color: #900028; 
+font: bold 10pt "Tahoma"}
+
+.TodaysDateText { 
+color: #900028; 
+font: bold 8pt "Arial"}
+
+.seperator {
+border-bottom: 1pt solid windowtext #900028;
+background-color: white;
+height: 5px
+}
+
+/* Begin Module Classes */
+
+.ModuleBox {
+border-left: 1pt solid windowtext #900028;
+border-right: 2pt solid windowtext #900028;
+border-bottom: 2pt solid windowtext #900028;
+border-top: 1pt solid windowtext #900028
+}
+
+.ModuleBoxTitle {
+background-color: #900028;
+vertical-align: top;
+text-align: left;
+padding: 5px}
+
+.ModuleTitle {
+text-align: center; 
+color: #FFFF00; 
+font: bold 10pt "Tahoma"; 
+padding-top:5px;
+padding-bottom:5px}
+
+a.ModuleTitleLink {
+text-decoration: underline; 
+text-align: left; 
+color: #FFFF00; 
+font: bold 10pt "Tahoma"}
+
+/* End Module Classes */

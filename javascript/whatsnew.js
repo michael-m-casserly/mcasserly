@@ -1,0 +1,3 @@
+document.write("<BR><center><p><div class='ImageTitle'>Black Water Inn<\/div><div class='ImageLabel'>112-08 Rockaway Beach Blvd.<\/br>Rockaway Beach, NY 11694<\/br>718-474-9564<\/div><\/p><p><div class='ImageLabel'>This site is optimized for viewing in Microsoft Internet Explorer and Netscape Navigator on an 800x600 resolution screen.<\/br>To eliminate any obstruction caused by the advertisments on the right, please change your display settings to 1024x768 or higher. For instructions on how this is done, please click <u>here<\/u><\/div><\/p>"
+)
+		
