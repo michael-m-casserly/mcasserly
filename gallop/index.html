@@ -134,6 +134,23 @@ background-image: url(/images/background.gif)}
           border-radius:5px; 
           width: 300px;
         }
+
+        .iframe-container {
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        } 
+/* Then style the iframe to fit in the container div with full height and width */
+        .responsive-iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+        }
       </style>
       
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -262,8 +279,16 @@ background-image: url(/images/background.gif)}
 </div> <!--end right column-->
 </center>
 
-      </div> <!--row-->
-      </div> <!--container-->
+      </div> <!--row #1-->
+
+<div class="row">      
+  <div class="iframe-container">
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+  </div>
+</div> <!--row #2-->
+
+
+    </div> <!--container-->
 </main>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
