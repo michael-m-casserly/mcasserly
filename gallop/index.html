@@ -73,6 +73,17 @@ body
 margin:0 0 0 0; 
 background-image: url(/images/background.gif)}
 
+@font-face{
+	font-family: 'Charlemagne std';
+	src: url('https://www.fordhamhockey.com/fonts/charlemagne-std/CharlemagneStd-Bold.otf') format('embedded-opentype'),
+	url('https://www.fordhamhockey.com/fonts/charlemagne-std/CharlemagneStd-Bold.woff') format('woff');
+}
+
+h2 h4 navbar-brand {
+	font-family: Charlemagne std;
+	color: #000;
+}
+
 </style>
 
 </head>
@@ -93,7 +104,7 @@ background-image: url(/images/background.gif)}
       </button>
     <!--End New code-->
 
-    <a class="navbar-brand" href="/gallop/index.html"><img src="/images/logo-gallop.jpg" border="0" alt="MMC Online" style="max-height:36px; max-width:51px;"></a>
+    <a class="navbar-brand" href="/gallop/index.html"><img src="/images/logo-gallop.jpg" border="0" alt="Gallop Racing LLC" style="max-height:36px; max-width:51px;"></a>
     <!--a href="/gallop/index.html" style=""><img src="/images/header_mmc.jpg" border="0" style="padding-right:10px; max-height:88px; max-width:217px;"/></a-->
     <a class="navbar-brand" href="/gallop/index.html">GALLOP</a>
   
@@ -128,6 +139,7 @@ background-image: url(/images/background.gif)}
       }	
 	      .btn-secondary{
 		      width: 250px;
+          background-color: #1b95e0 !important;
 		      }
         .module-wrapper{
           border: 2px solid black; 
