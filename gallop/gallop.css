@@ -1,0 +1,100 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  /*force all images to be responsive*/
+  img
+      {
+        width: 100%;
+        height: auto;
+    }
+
+  @media (min-width: 320px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+/*
+body
+{width: 840px;}
+*/
+
+.bodyTag{ 
+    margin:0 0 0 0; 
+    background-image: url(/images/background.gif)}
+    
+    @font-face{
+        font-family: 'Charlemagne std';
+        src: url('https://www.mcasserly.com/fonts/charlemagne-std/CharlemagneStd-Bold.otf') format('embedded-opentype'),
+        url('https://www.mcasserly.com/fonts/charlemagne-std/CharlemagneStd-Bold.woff') format('woff');
+    }
+    
+    h2, h3, h4, .navbar-brand {
+        font-family: Charlemagne std;
+        color: #000;
+    }
+    
+/*Begin New Code for X Close Button*/
+       /* hide close when burger shown */
+       .navbar-toggler.collapsed .close-icon {
+        display: none;
+     }
+     .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+        display: inline;
+     }
+    /*End New Code for X Close Button*/
+    
+    li.nav-item, .dropdown, .active {
+      border: 1px solid gray; 
+      border-radius:5px;
+      }
+    /*Customize Nav Menu Buttons*/
+    a.nav-link {
+      text-transform:uppercase;
+      font-weight:bold;
+      text-align:center;
+      color:#FFF !important;
+      }
+    a.dropdown-item{
+      text-decoration:underline;
+    }	
+        .btn-secondary{
+            width: 250px;
+        background-color: #1b95e0 !important;
+            }
+      .module-wrapper{
+        border: 2px solid black; 
+        border-radius:5px; 
+        width: 300px;
+      }
+
+      .iframe-container {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        /*padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+        /*padding-top: 62.5%; /* 8:5 Aspect Ratio */
+        /*padding-top: 66.66%; /* 3:2 Aspect Ratio */
+        /*padding-top: 75%; /* 4:3 Aspect Ratio */
+        padding-top: 100%; /* 1:1 Aspect Ratio */
+      } 
+/* Then style the iframe to fit in the container div with full height and width */
+      .responsive-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+/*Use this to center all of the content within the 3 columns*/
+  .col-lg-4 p div {
+  text-align:center;
+  }
