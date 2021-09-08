@@ -42,6 +42,23 @@
 </script>
 <!--End Google Analytic Code -->
 
+<!-- Use this to track the clicks to outbound links-->
+<script>
+    /**
+    * Function that captures a click on an outbound link in Analytics.
+    * This function takes a valid URL string as an argument, and uses that URL string
+    * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+    * using 'navigator.sendBeacon' in browser that support it.
+    */
+    var captureOutboundLink = function(url) {
+       ga('send', 'event', 'outbound', 'click', url, {
+         'transport': 'beacon',
+         'hitCallback': function(){document.location = url;}
+       });
+    }
+    </script>
+  
+
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="icon" type="image/gif" href="/animated_favicon1.gif">
 </head>
@@ -76,9 +93,9 @@
 			<span class="rightNavImageLink">
             	<table>
                 	<tr>
-                    	<td style="padding-right:10px;"><a target="_blank" class="homepagelink" href="https://twitter.com/hashtag/rttbc2021?f=live"><img border="0" src="/images/logos/twitter_icon50x50.jpg" width="50" height="50" alt="Twitter #RTTBC2021" title="Twitter #RTTBC2021"><br>#rttbc2021</a></td>
-                        <td style="padding-right:10px;"><a target="_blank" class="homepagelink" href="https://calendar.google.com/calendar/u/0/embed?src=csk9dn09aab9f6o8gdmrckipc8@group.calendar.google.com&ctz=America/New_York"><img border="0" src="/images/logos/google-calendar_icon50x50.jpg" width="50" height="50" alt="Gallop Calendar" title="Gallop Calendar"><br>Contest</a></td>
-                        <td><a target="_blank" class="homepagelink" href="https://twitter.com/i/lists/1362387370553856001"><img border="0" src="/images/logos/twitter_icon50x50.jpg" width="50" height="50" alt="Twitter Gallop List" title="Twitter Gallop List"><br>Gallop</a></td>
+                    	<td style="padding-right:10px;"><a target="_blank" class="homepagelink" href="https://twitter.com/hashtag/rttbc2021?f=live"><img border="0" src="/images/logos/twitter_icon50x50.jpg" width="50" height="50" alt="Twitter #RTTBC2021" title="Twitter #RTTBC2021" onclick="captureOutboundLink('https://twitter.com/hashtag/rttbc2021?f=live');"><br>#rttbc2021</a></td>
+                        <td style="padding-right:10px;"><a target="_blank" class="homepagelink" href="https://calendar.google.com/calendar/u/0/embed?src=csk9dn09aab9f6o8gdmrckipc8@group.calendar.google.com&ctz=America/New_York"><img border="0" src="/images/logos/google-calendar_icon50x50.jpg" width="50" height="50" alt="Gallop Calendar" title="Gallop Calendar" onclick="captureOutboundLink('https://calendar.google.com/calendar/u/0/embed?src=csk9dn09aab9f6o8gdmrckipc8@group.calendar.google.com&ctz=America/New_York');"><br>Contest</a></td>
+                        <td><a target="_blank" class="homepagelink" href="https://twitter.com/i/lists/1362387370553856001"><img border="0" src="/images/logos/twitter_icon50x50.jpg" width="50" height="50" alt="Twitter Gallop List" title="Twitter Gallop List" onclick="captureOutboundLink('https://twitter.com/i/lists/1362387370553856001');"><br>Gallop</a></td>
                         </tr>
                  </table>
              </span>
@@ -302,10 +319,10 @@
 		<br/>
         <span class="moduleTitle">Current Web Development Projects</span>
         <div class="module">
-            <li class="leftNavLink"><img src="images/logo-gallop.jpg" style="max-height:36px; max-width:51px;" border="0" alt="Gallop Fantasy Horse Racing" title="Gallop Fantasy Horse Racing"><a target="_blank" class="homepagelink" href="https://www.gallop-racing.com/">Gallop Fantasy Horse Racing <span class="timeline">(since 2021)</span></a></li>
-            <li class="leftNavLink"><img src="images/logos/logo_fordhamhockey.jpg" style="max-height:50px; max-width:50px;" border="0" alt="Fordham Rams Hockey Club" title="Fordham Rams Hockey Club"><a target="_blank" class="homepagelink" href="https://www.fordham.edu/info/21391/hockey">Fordham.edu Club Hockey Site <span class="timeline">(since 2019)</span></a>&nbsp;/&nbsp;<a href="https://cms.fordham.edu/jadu" target="_blank">Jadu CMS</a></li>
-		  <li class="leftNavLink"><img src="images/logos/mchc_logo_circle_no_text.jpg" style="max-height:50px; max-width:50px;" border="0" alt="Metropolitan Collegiate Hockey Conference" title="Metropolitan Collegiate Hockey Conference"><a target="_blank" class="homepagelink" href="http://www.methockey.com/">Metropolitan Collegiate Hockey Conference <span class="timeline">(since 2016)</span></a></li>
-		  <li class="leftNavLink"><img src="images/logos/logo_fordhamhockey.jpg" style="max-height:50px; max-width:50px;" border="0" alt="Fordham Rams Hockey Club" title="Fordham Rams Hockey Club"><a target="_blank" class="homepagelink" href="http://www.fordhamramshockey.com">Fordham Rams Hockey Club <span class="timeline">(since 2005)</span></a></li>
+            <li class="leftNavLink"><img src="images/logo-gallop.jpg" style="max-height:36px; max-width:51px;" border="0" alt="Gallop Fantasy Horse Racing" title="Gallop Fantasy Horse Racing"><a target="_blank" class="homepagelink" href="https://www.gallop-racing.com/" onclick="captureOutboundLink('https://www.gallop-racing.com/');">Gallop Fantasy Horse Racing <span class="timeline">(since 2021)</span></a></li>
+            <li class="leftNavLink"><img src="images/logos/logo_fordhamhockey.jpg" style="max-height:50px; max-width:50px;" border="0" alt="Fordham Rams Hockey Club" title="Fordham Rams Hockey Club"><a target="_blank" class="homepagelink" href="https://www.fordham.edu/info/21391/hockey" onclick="captureOutboundLink('https://www.fordham.edu/info/21391/hockey');">Fordham.edu Club Hockey Site <span class="timeline">(since 2019)</span></a>&nbsp;/&nbsp;<a href="https://cms.fordham.edu/jadu" target="_blank">Jadu CMS</a></li>
+		  <li class="leftNavLink"><img src="images/logos/mchc_logo_circle_no_text.jpg" style="max-height:50px; max-width:50px;" border="0" alt="Metropolitan Collegiate Hockey Conference" title="Metropolitan Collegiate Hockey Conference"><a target="_blank" class="homepagelink" href="http://www.methockey.com/" onclick="captureOutboundLink('http://www.methockey.com/');">Metropolitan Collegiate Hockey Conference <span class="timeline">(since 2016)</span></a></li>
+		  <li class="leftNavLink"><img src="images/logos/logo_fordhamhockey.jpg" style="max-height:50px; max-width:50px;" border="0" alt="Fordham Rams Hockey Club" title="Fordham Rams Hockey Club"><a target="_blank" class="homepagelink" href="https://www.fordhamhockey.com" onclick="captureOutboundLink('https://www.fordhamhockey.com');">Fordham Rams Hockey Club <span class="timeline">(since 2005)</span></a></li>
           <!--li class="leftNavLink"><a target="_blank" class="homepagelink" href="http://www.kinsale.com">The Kinsale Tavern-New York, NY <span class="timeline">(Built 9/2005*)</span></a></li-->
           <!--Hurley Domain has expired-->
           <!--li class="leftNavLink"><a target="_blank" class="homepagelink" href="http://www.drbobhurley.com">Hurley Associates, Inc.-Management Consulting Firm <span class="timeline">(since 2004)</span></a></li>
