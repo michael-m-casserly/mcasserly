@@ -98,3 +98,48 @@ body
   .col-lg-4 p div {
   text-align:center;
   }
+
+  /* Table properties */
+
+th {
+  height: 50px;
+}
+
+td {
+	height: 30px;
+	vertical-align: middle; /* it should default to this anyway; may need to remove any local or inline CSS to prevent this being overridden */
+}
+
+.TableHeader {
+	background:#344f7c; 
+	color:white !important;
+	font-weight:bold;
+}
+
+.TableStandard {
+	max-width:500px;
+	min-width:300px; 
+	/*border:thin;*/
+	border-width: 1px; 
+	border-color: #CCC;	
+}
+
+.TableStandard td {
+	text-align:center;
+	vertical-align:center;
+	border-width: 1px; 
+	border-color: #CCC;	
+}
+
+.TableSubHeader {
+	font-weight:bold;
+	}
+
+.TableNotes {
+	font-style:italic;
+	font-size:13px;
+}
+
+.Standings-Team {
+	text-align:left !important;
+}
