@@ -72,9 +72,9 @@ body
         border-radius:5px; 
         width: 300px;
       }
-       .nominations{
-        width: 50px !important;
-
+       .btn-nominations{
+        width: 50px;
+        background-color: #1b95e0 !important;
        }
 
       .iframe-container {
