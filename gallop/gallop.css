@@ -75,6 +75,9 @@ body
        .btn-nominations{
         width: 60px !important;
        }
+       .btn-half{
+        width: 110px !important;
+       }
 
       .iframe-container {
         position: relative;
