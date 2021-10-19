@@ -72,6 +72,10 @@ body
         border-radius:5px; 
         width: 300px;
       }
+       .btn-secondary nominations{
+        width: 50px;
+
+       }
 
       .iframe-container {
         position: relative;
