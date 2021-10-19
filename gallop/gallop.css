@@ -73,8 +73,7 @@ body
         width: 300px;
       }
        .btn-nominations{
-        width: 50px;
-        background-color: #1b95e0 !important;
+        width: 50px !important;
        }
 
       .iframe-container {
