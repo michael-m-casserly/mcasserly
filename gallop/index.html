@@ -15,6 +15,9 @@
     <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Local CSS-->
     <link rel="stylesheet" type="text/CSS" href="/gallop/gallop.css" media="screen">
+    <script src="/gallop/gallop.js" language=javascript type="text/javascript"></script>
+    
+
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.3/examples/carousel/carousel.css" rel="stylesheet">
     <!-- Use this if a jumbotron is preferred to the carousel... -->
@@ -319,49 +322,10 @@
 
     </div> <!--container-->
 
-<!--Begin Bottom Navigation Menu-->
-<!--Begin Bottom Nav Bar-->
-<nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark container">
-  <a class="navbar-brand" href="#">Connect</a>
-
-  <button class="navbar-toggler collapsed border-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    <div class="close-icon py-1" style="color:white; background-color:white;">✖</div>
-  </button>
-
-<!--Backup Current Code-->
-  <!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button-->
-<!--Backup End Code-->
-
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="mailto:mcasserly.gallop@gmail.com" target="_blank">Email Us</a>
-        </li>
-		<!--li class="nav-item">  
-        <a class="nav-link" href="https://www.linkedin.com/company/metropolitan-collegiate-hockey-conference-inc" target="_blank">LinkedIN</a>
-      </li-->
-      <li class="nav-item">  
-        <a class="nav-link" href="https://twitter.com/i/lists/1362387370553856001" target="_blank">Twitter</a>
-      </li>
-      <!--li class="nav-item">  
-        <a class="nav-link" href="https://en.wikipedia.org/wiki/Metropolitan_Collegiate_Hockey_Conference" target="_blank">Wikipedia</a>
-      </li-->
-      <!--li class="nav-item">  
-        <a class="nav-link" href="https://www.youtube.com/channel/UC99h00OkpUmQ8ZcWc0lYlVQ" target="_blank">YouTube</a>
-      </li-->
-      <li class="nav-item">
-        <a class="nav-link" href="https://calendar.google.com/calendar/u/0/embed?src=csk9dn09aab9f6o8gdmrckipc8@group.calendar.google.com&ctz=America/New_York&mode=agenda" target="_blank">Google Calendar</a>
-        </li>
-		  
-    </ul>
-  </div>
-</nav>
-<!--End Bottom Nav Bar-->
+    <div w3-include-html="/gallop/footer.html"></div>
 
 </main>
+
 <!--Get Current Year for Copyright-->
 <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
@@ -370,5 +334,9 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 
+<script>
+  w3IncludeHTML();
+</script>
+      
 </body>
 </html>
