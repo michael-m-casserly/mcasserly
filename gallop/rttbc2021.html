@@ -80,42 +80,10 @@
 
 </head>
 
-<body onLoad="window.defaultStatus='Welcome to Michael Casserly\'s Home Page'" class="bodyTag">
+<body class="bodyTag">
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light container" style="border: 2px solid black; border-radius:5px;">
-    
-      <!--Wrap Navbar in a container to center it-->
-      <div class="container"> 
-        <!--Add a Gallop Image here-->
-      
-      
-    <!--Begin New code to swap out X for Close Button-->
-      <button class="navbar-toggler collapsed border-1" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        <div class="close-icon py-1">✖</div>
-      </button>
-    <!--End New code-->
-
-    <a class="navbar-brand" href="/gallop/index.html"><img src="/images/logo-gallop.png" border="0" alt="Gallop Racing LLC" style="max-height:36px; max-width:51px;"></a>
-    <a class="navbar-brand" href="/gallop/index.html">GALLOP</a>
-  
-
-    <!--a class="navbar-brand" href="/gallop/index.html">GALLOP</a-->
-    
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto" style="background-color:#344f7c; padding-left:10px; padding-right:10px; border: 2px solid black; border-radius:5px;">
-          <li class="nav-item dropdown active">
-            <a class="nav-link" href="https://mcasserly.com/gallop/index.html"> &lt;-- Gallop Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="https://twitter.com/hashtag/rttbc2021?f=live" target="_blank">#rttbc2021</a>
-          </li>      
-        </ul>
-      </div>
-    <!-- End Container DIV for Navbar-->
-    </div>
-    </nav>
-    </header>
+    <div w3-include-html-banner="/gallop/banner.html"></div>    
+  </header>
     
     <!--End Banner-->
     
@@ -330,7 +298,7 @@
 
     </div> <!--container-->
 
-    <div w3-include-html="/gallop/footer.html"></div>
+    <div w3-include-html-footer="/gallop/footer.html"></div>
 
 </main>
 
@@ -343,7 +311,11 @@
       <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 
 <script>
-  w3IncludeHTML();
+  w3IncludeHTML_Banner();
+</script>
+      
+<script>
+  w3IncludeHTML_Footer();
 </script>
       
 </body>
