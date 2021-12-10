@@ -1,11 +1,3 @@
-/*Embedded Font*/
-@font-face{
-	font-family: 'Charlemagne std';
-	src: url('http://www.methockey.com/fonts/charlemagne-std/CharlemagneStd-Bold.otf') format('embedded-opentype'),
-	url('http://www.methockey.com/fonts/charlemagne-std/CharlemagneStd-Bold.woff') format('woff');
-}
-
-
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -37,13 +29,13 @@ body
     margin:0 0 0 0; 
     background-image: url(/images/background.gif)}
 
-/*    
+    
     @font-face{
         font-family: 'Charlemagne std';
         src: url('https://www.mcasserly.com/fonts/charlemagne-std/CharlemagneStd-Bold.otf') format('embedded-opentype'),
         url('https://www.mcasserly.com/fonts/charlemagne-std/CharlemagneStd-Bold.woff') format('woff');
     }
- */   
+    
     h2, h3, h4, .navbar-brand {
         font-family: Charlemagne std;
         color: #000;
