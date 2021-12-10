@@ -1,15 +1,15 @@
 // Include FOOTER 
-function w3IncludeHTML() {
+function w3IncludeHTML_Footer() {
     var z, i, a, file, xhttp;
     z = document.getElementsByTagName("*");
     for (i = 0; i < z.length; i++) {
-      if (z[i].getAttribute("w3-include-html")) {
+      if (z[i].getAttribute("w3-include-html-footer")) {
         a = z[i].cloneNode(false);
-        file = z[i].getAttribute("w3-include-html");
+        file = z[i].getAttribute("w3-include-html-footer");
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
           if (xhttp.readyState == 4 && xhttp.status == 200) {
-            a.removeAttribute("w3-include-html");
+            a.removeAttribute("w3-include-html-footer");
             a.innerHTML = xhttp.responseText;
   
             z[i].parentNode.replaceChild(a, z[i]);
