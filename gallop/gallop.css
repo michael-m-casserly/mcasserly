@@ -64,6 +64,9 @@ body
       }
     a.dropdown-item{
       text-decoration:underline;
+    }
+    div.dropdown-menu{
+      border: 2px solid black; 
     }	
         .btn-secondary{
             width: 250px;
