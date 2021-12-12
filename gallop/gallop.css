@@ -163,3 +163,24 @@ td {
 .Standings-Team {
 	text-align:left !important;
 }
+
+.breadcrumb {
+	padding-top: 30px !important; /* any adjustment here should also be applied to the jumbotron pic on index.shtml */
+	border: 2px solid black; 
+	border-radius:5px;
+	padding-left: 20px !important;
+}
+
+a.PageTitleBreadCrumb { 
+  color: #344f7c;
+  /*color: #5e183e; */
+  text-align: left; 
+  font: 10pt "Tahoma";
+  font-weight:bold
+}
+  
+a.PageTitleBreadCrumb:link {
+  text-decoration: underline;
+  /*color: #0000CC; */
+  }
+  
