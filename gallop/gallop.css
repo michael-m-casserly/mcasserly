@@ -197,3 +197,8 @@ a.PageTitleBreadCrumb:link {
 {
   font-style: italic;
 }
+
+.stats-table
+{
+  margin: 10px;
+}
