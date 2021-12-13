@@ -187,4 +187,13 @@ a.PageTitleBreadCrumb:link {
 .table-data-number{
   text-align: center;
 }
-  
+
+.drafted-player
+{
+  font-weight: bold;
+}
+
+.non-drafted-player
+{
+  font-style: italic;
+}
