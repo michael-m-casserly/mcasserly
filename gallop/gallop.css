@@ -183,4 +183,8 @@ a.PageTitleBreadCrumb:link {
   text-decoration: underline;
   /*color: #0000CC; */
   }
+
+.table-data-number{
+  text-align: right;
+}
   
