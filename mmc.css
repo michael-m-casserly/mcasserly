@@ -202,3 +202,8 @@ a.PageTitleBreadCrumb:link {
 {
   margin: 10px;
 }
+
+.flag-image
+{
+  max-width: 32px;
+}
