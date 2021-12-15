@@ -165,10 +165,10 @@ td {
 }
 
 .breadcrumb {
-	padding-top: 30px !important; /* any adjustment here should also be applied to the jumbotron pic on index.shtml */
+	padding-top: 40px !important; /* any adjustment here should also be applied to the jumbotron pic on index.shtml */
 	border: 2px solid black; 
 	border-radius:5px;
-	padding-left: 30px !important;
+	padding-left: 40px !important;
 }
 
 a.PageTitleBreadCrumb { 
