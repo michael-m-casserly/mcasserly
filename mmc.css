@@ -203,7 +203,125 @@ a.PageTitleBreadCrumb:link {
   margin: 10px;
 }
 
+
+/* Begin Work Experience Styles*/
 .flag-image
 {
   max-width: 32px;
 }
+
+.leftNavLink {
+  /*
+  list-style-image: none;
+  list-style-type: none;
+  */
+  }
+  
+  .leftNavLinkSubLink, .leftNavLinkSubSubLink, leftNavLinkSubSubSubLink, .leftNavImageLink, .rightNavImageLink  {
+  list-style-image: none;
+  }
+  
+  .leftNavImageLink, .rightNavImageLink  {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  border:none;
+  margin: 0 0 0 0;
+  }
+  
+  .leftNavLinkSubLink  {
+  list-style-type: disc;
+  padding-left: 20px;
+  }
+  
+  .leftNavLinkSubSubLink, .leftNavLinkSubSubLinkNoBullet  {
+  padding-left: 35px;
+  }
+  
+  .leftNavLinkSubSubSubLink {
+  padding-left: 45px;
+  }
+  
+  .leftNavLinkSubSubLink  {
+  list-style-type: circle;
+  }
+  
+  .leftNavLinkSubSubLinkNoBullet  {
+  /*list-style-type: none; */
+  }
+  
+  .rightNavLink {
+  /*
+  list-style-image: none;
+  list-style-type: none;
+  */
+  }
+  
+  .leftNavTitle, .moduleTitle, .rightNavTitle {
+  width: 100%; 
+  background-color: navy; 
+  padding: 5px 5px 2px 5px;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-family: verdana, tahoma, arial;
+  font-size: 12px;
+  }
+  
+  .moduleLink {
+  /*
+  list-style-image: none;
+  list-style-type: none;
+  */
+  }
+  
+  .leftNavLinkHeader, .moduleLinkHeader, .rightNavLinkHeader {
+  list-style-image: none;
+  list-style-type: none;
+  font-weight:bold
+  }
+  
+  .leftNav, .module, .rightNav {
+  background-color: white; 
+  padding: 5px;
+  margin: 0px 0px 0px 0px;
+  border-top: 2px solid navy;
+  border-right: 3px solid navy;
+  border-bottom: 3px solid navy;
+  border-left: 2px solid navy;
+  }
+  
+  .timeline {
+    font-style:italic;
+    font-size:10px;
+  }
+  
+  .position {
+    font-style:italic;
+  }
+  
+  .position-detail {
+    font-size:12px;
+  }
+  
+  .50x50-icon {
+  /*	padding-top: 2px;
+    padding-right: 2px;
+  */
+  padding: 10px;
+  }
+  
+  .66x66-icon {
+    padding-top: 3px;
+    padding-right: 3px;
+  }
+  
+  .flag {
+    padding-right: 5px;
+  }
+  .shop-photo {
+    position:relative;
+    float: left;
+  }
+  
+  /* End Work Experience Styles*/
+
