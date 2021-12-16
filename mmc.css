@@ -230,15 +230,15 @@ a.PageTitleBreadCrumb:link {
   
   .leftNavLinkSubLink  {
   list-style-type: disc;
-  padding-left: 20px;
+  padding-left: 0px;
   }
   
   .leftNavLinkSubSubLink, .leftNavLinkSubSubLinkNoBullet  {
-  padding-left: 35px;
+  padding-left: 15px;
   }
   
   .leftNavLinkSubSubSubLink {
-  padding-left: 45px;
+  padding-left: 25px;
   list-style-type: square;
   }
   
