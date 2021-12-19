@@ -1,8 +1,8 @@
 /*Embedded Font*/
 @font-face{
   font-family: 'Charlemagne std';
-  src: url('https://www.mcasserly.com/fonts/charlemagne-std/CharlemagneStd-Bold.otf') format('embedded-opentype'),
-  url('https://www.mcasserly.com/fonts/charlemagne-std/CharlemagneStd-Bold.woff') format('woff');
+  src: url('https://michael-m-casserly.github.io/fonts/charlemagne-std/CharlemagneStd-Bold.otf') format('embedded-opentype'),
+  url('https://michael-m-casserly.github.io/fonts/charlemagne-std/CharlemagneStd-Bold.woff') format('woff');
 }
 
 
