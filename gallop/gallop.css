@@ -68,11 +68,11 @@ body
     div.dropdown-menu{
       border: 2px solid black; 
     }	
-        .btn-secondary{
+  .btn-secondary{
             width: 250px;
         background-color: #1b95e0 !important;
             }
-      .module-wrapper{
+  .module-wrapper{
         border: 2px solid black; 
         border-radius:5px; 
         width: 300px;
@@ -86,7 +86,7 @@ body
     margin-bottom: 10px;
     background-color: #e5ecf9;
   }
-
+  
        .btn-nominations{
         width: 55px !important;
        }
